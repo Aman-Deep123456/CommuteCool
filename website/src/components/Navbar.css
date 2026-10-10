@@ -1,0 +1,17 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  padding: 0.8rem 2rem;
+  z-index: 10;
+}
+.nav-item {
+  margin: 0 1rem;
+  color: #e0e0ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav-item.active {
+  color: var(--accent);
+}
